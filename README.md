@@ -1,1 +1,1 @@
-# make-QR-Code-Decode
+# Make QR code or decode other QR.
