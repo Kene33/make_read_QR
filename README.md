@@ -6,3 +6,9 @@
 pip install segno
 pip install pyzbar
 ```
+## How to start
+```
+python main.py
+```
+and read the text on the console ;) 
+pls star
