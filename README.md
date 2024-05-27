@@ -11,4 +11,3 @@ pip install pyzbar
 python main.py
 ```
 and read the text on the console ;) 
-pls star
