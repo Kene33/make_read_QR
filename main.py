@@ -23,7 +23,7 @@ def makeqr():
             print("WRITE ONLY open OR exit :)")
             makeqr()
 
-def decodeqr():
+def openqr():
     while True:
         qrlink = str(input("Link to QR Code file > "))
         img = cv2.imread(qrlink)
@@ -50,7 +50,7 @@ def start():
     if change == "1":
         makeqr()
     elif change == "2":
-        decodeqr()
+        openqr()
     else:
         print("No, only 1 or 2")
         start()
