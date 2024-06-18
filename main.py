@@ -8,7 +8,7 @@ def make_qr():
     img = qrcode.make(link)
     img.save("your_code.png")
 
-    print("Done! I save your QR Code in qrcode.png")
+    print("Done! I save your QR Code in your_code.png")
 
     quas = str(input("Do you want to decode more QR codes? (Yes/No) > "))
 
