@@ -3,7 +3,7 @@
 
 ## How to install
 ```
-pip install segno
+pip install qrcode
 pip install pyzbar
 ```
 ## How to start
