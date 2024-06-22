@@ -10,14 +10,6 @@ def make_qr():
 
     print("Done! I save your QR Code in your_code.png")
 
-    quas = str(input("Do you want to decode more QR codes? (Yes/No) > "))
-
-    if quas.lower() == "yes":
-        decode_qr()
-    elif quas.lower() == "no":
-        print("Goodbye!")
-        exit()
-
 def decode_qr():
     while True:
         try:
