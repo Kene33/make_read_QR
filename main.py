@@ -33,7 +33,6 @@ def decode_qr():
 
 
 def start():
-    print("Hi, I can make a QR code with your text or decode your QR code.")
     while True:
         choice = input("What do you want to do? (1 - Make QR Code, 2 - Decode QR code, exit - Quit) > ")
         if choice == "1":
@@ -47,4 +46,6 @@ def start():
             break
         else:
             print("Please enter only '1', '2', or 'exit'")
+            
+print("Hi, I can make a QR code with your text or decode your QR code.")
 start()
